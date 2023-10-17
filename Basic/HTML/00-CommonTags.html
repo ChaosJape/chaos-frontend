@@ -77,21 +77,91 @@
         </tr>
     </table>
     <table align="center" border="1" cellpadding="10" cellspacing="5">
+        <thead>
         <tr>
             <th>table_head1</th>
             <th>table_head2</th>
             <th>table_head3</th>
         </tr>
+        </thead>
+        <tbody>
         <tr>
-            <td>table_row1_data1</td>
-            <td>table_row1_data2</td>
-            <td>table_row1_data3</td>
+            <td colspan="2">table_row1_data1</td>
+            <td rowspan="2">table_row1_data2</td>
         </tr>
         <tr>
             <td>table_row2_data1</td>
             <td>table_row2_data2</td>
-            <td>table_row2_data3</td>
         </tr>
+        </tbody>
     </table>
+    <br/>
+    <!-- unordered list -->
+    <ul>
+        <li>list item1</li>
+        <li>list item2</li>
+        <li><p> p in li </p></li>
+    </ul>
+    <br/>
+    <!-- ordered list -->
+    <ol>
+        <li>list item1</li>
+        <li>list item2</li>
+        <li>list item3</li>
+    </ol>
+    <br/>
+    <!-- definition list -->
+    <dl>
+        <dt> definition term</dt>
+        <dd> definition description1</dd>
+        <dd> definition description2</dd>
+        <dd> definition description3</dd>
+    </dl>
+    <br/>
+    <form action="internal.html" method="get" name="form1">
+        <!-- form element -->
+        <label for="my-text">
+            text:
+        </label>
+        <input type="text" name="my-text" id="my-text" value="input something" maxlength="5">
+        <br/>
+        <label>
+            password:<input type="password" name="my-pwd">
+            <br/>
+            radio:
+            1<input type="radio" name="my-radio" value="1">
+            2<input type="radio" name="my-radio" value="2" checked="checked">
+            3<input type="radio" name="my-radio" value="3">
+            <br/>
+            checkbox:
+            4<input type="checkbox" name="my-checkbox" value="4">
+            5<input type="checkbox" name="my-checkbox" value="5" checked="checked">
+            6<input type="checkbox" name="my-checkbox" value="6">
+            <br/>
+            <input type="submit" value="submit button text">
+            <br/>
+            <input type="reset" value="reset button text">
+            <br/>
+            <input type="button" value="button text">
+            <br/>
+            <input type="file" value="select file">
+            <br/>
+        </label>
+        <label>
+            <select>
+                <option>1</option>
+                <option selected="selected">2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </label>
+        <br/>
+        <label>
+            <textarea cols="10" rows="5">
+                default text
+            </textarea>
+        </label>
+    </form>
 </body>
 </html>
