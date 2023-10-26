@@ -1,0 +1,12 @@
+.text1 {
+    color: green;
+    /*font-style: italic;*/
+    /*font-weight: lighter;*/
+    /*font-size: 28px;*/
+    /*font-family: 'Microsoft YaHei', serif;*/
+    font: italic lighter 28px 'Microsoft YaHei', Serif;
+    text-align: center;
+    text-decoration: overline;
+    text-indent: 2em;
+    line-height: 34px;
+}
