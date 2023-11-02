@@ -13,3 +13,16 @@ p {
 * {
     font-size: 20px;
 }
+
+.selector4 span {
+    color: orange;
+}
+
+.selector5 > span {
+    color: yellow;
+}
+
+.selector6,
+.selector7 {
+    color: purple;
+}
