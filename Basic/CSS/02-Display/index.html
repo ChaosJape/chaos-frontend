@@ -19,6 +19,21 @@
         .div4 {
             background-color: green;
         }
+
+        .span1 {
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+        }
+
+        .span2 {
+            background-color: orange;
+        }
+
+        .input1 {
+            width: 300px;
+            height: 200px;
+        }
     </style>
 </head>
 <body>
@@ -28,5 +43,15 @@
         <div class="div4">extends width of parent element</div>
     </div>
     <p>div can not be put in p tag or h tag , or something wrong would happen</p>
+    <!--inline elements-->
+    <!--`<a> <strong> <b> <em> <i> <del> <s> <ins> <u> <span>`-->
+    <span class="span1">one row can display multiple, and set width and height directly is invalid</span>
+    <span class="span2">the default width is the width of the content itself</span>
+    <span class="span3">can only accommodate text or other inline elements, not block-level elements</span>
+    <!--inline-block elements-->
+    <!--<img /><input /><td>-->
+    <label>
+        <input class="input1"/>
+    </label>
 </body>
 </html>
