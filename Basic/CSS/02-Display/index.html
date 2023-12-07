@@ -3,8 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        .div1 {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+
+        .div3 {
+            width: 300px;
+            height: 300px;
+            background-color: red;
+        }
+
+        .div4 {
+            background-color: green;
+        }
+    </style>
 </head>
 <body>
-    <div>block-level content monopolize a row</div>
+    <div class="div1">block-level content monopolize a row</div>
+    <div class="div2">div1 with width and height still monopolize a row</div>
+    <div class="div3">any element can be put into it
+        <div class="div4">extends width of parent element</div>
+    </div>
+    <p>div can not be put in p tag or h tag , or something wrong would happen</p>
 </body>
 </html>
