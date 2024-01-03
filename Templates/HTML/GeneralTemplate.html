@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            padding: 4px;
+            background-color: lightblue;
+        }
+
+        #container {
+            border: 1px solid royalblue;
+            background-color: lightskyblue;
+            margin: 8px;
+        }
+
+        #header {
+            height: 100px;
+            border: 1px solid royalblue;
+            background-color: cornflowerblue;
+            margin: 8px;
+        }
+
+        #navbar {
+            height: 40px;
+            border: 1px solid royalblue;
+            background-color: cornflowerblue;
+            margin: 8px;
+        }
+
+        #menu {
+            width: 200px;
+            height: 600px;
+            border: 1px solid royalblue;
+            background-color: cornflowerblue;
+            margin: 8px;
+        }
+
+        #content {
+            flex: 2;
+            height: 600px;
+            border: 1px solid royalblue;
+            background-color: cornflowerblue;
+            margin: 8px;
+        }
+
+        #sidebar {
+            flex: 1;
+            height: 600px;
+            border: 1px solid royalblue;
+            background-color: cornflowerblue;
+            margin: 8px;
+        }
+
+        #footer {
+            height: 80px;
+            border: 1px solid royalblue;
+            background-color: cornflowerblue;
+            margin: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">header</div>
+        <div id="navbar">navbar</div>
+        <div style="display: flex;flex-direction: row">
+            <div id="menu">menu</div>
+            <div id="content">main content</div>
+            <div id="sidebar">sidebar</div>
+        </div>
+        <div id="footer">footer</div>
+    </div>
+</body>
+</html>
