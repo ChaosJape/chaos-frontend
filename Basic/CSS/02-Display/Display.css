@@ -46,4 +46,5 @@
     height: 100px;
     width: 300px;
     background: dodgerblue;
+    line-height: 100px; /*center text vertically: set line-height equal to height*/
 }
