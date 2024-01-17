@@ -1,0 +1,54 @@
+.div1 {
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    background-image: url("../assets/logo.svg");
+    background-repeat: repeat;
+}
+
+.div2 {
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    background-image: url("../assets/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div3 {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    background-image: url("../assets/logo.svg");
+    background-repeat: repeat-x;
+    background-position: left bottom;
+}
+
+.div4 {
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    background-image: url("../assets/logo.svg");
+    background-repeat: repeat-y;
+}
+
+.div5 {
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    background-image: url("../assets/logo.svg");
+    background-repeat: no-repeat;
+    background-position: 20px 40px;
+}
+
+.div6 {
+    background-color: red;
+    background-image: url("../assets/bg.svg");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.div7 {
+    background: blue url("../assets/bg.svg") repeat-x fixed center;
+}
