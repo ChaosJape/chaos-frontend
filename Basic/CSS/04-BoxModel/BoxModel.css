@@ -1,0 +1,68 @@
+.div1 {
+    width: 300px;
+    height: 200px;
+    border-width: 5px;
+}
+
+.div2 {
+    width: 300px;
+    height: 200px;
+    border-style: solid;
+}
+
+.div3 {
+    width: 300px;
+    height: 200px;
+    border-style: dashed;
+}
+
+.div4 {
+    width: 300px;
+    height: 200px;
+    border-style: dotted;
+}
+
+.div5 {
+    width: 300px;
+    height: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.div6 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.table1 {
+    width: 500px;
+    height: 200px;
+}
+
+th {
+    height: 35px;
+}
+
+.table1, td, th {
+    border: 3px solid green;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.div7 {
+    width: 300px;
+    height: 200px;
+    background: red;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+.div8 {
+    width: 300px;
+    height: 200px;
+    background: green;
+    padding: 50px 50px 30px 30px;
+}
