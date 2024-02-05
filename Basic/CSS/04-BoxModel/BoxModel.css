@@ -66,3 +66,37 @@ th {
     background: green;
     padding: 50px 50px 30px 30px;
 }
+
+.div9 {
+    height: 100px;
+    width: 300px;
+    background-color: orange;
+}
+
+.div9 .div10 {
+    background-color: rgba(0, 0, 255, 0.5);
+    padding: 4px;
+}
+
+.div11 {
+    height: 100px;
+    width: 300px;
+    background-color: lightblue;
+    margin: 20px;
+}
+
+.div12 {
+    background-color: palevioletred;
+    padding: 20px;
+}
+
+.div13 {
+    height: 100px;
+    width: 300px;
+    background-color: cadetblue;
+}
+
+.div14 {
+    background-color: lawngreen;
+    margin: 20px;
+}
