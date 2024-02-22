@@ -33,15 +33,47 @@
         </tr>
         </tbody>
     </table>
+    <!-- padding -->
     <div class="div7">content</div>
     <div class="div8">content</div>
     <div class="div9">
-        <p class="div10">77</p>
+        <p class="div10">width will inherit from parent element if width is not specified</p>
     </div>
-    <div class="div11"></div>
-    <div class="div12">a</div>
+    <!-- margin -->
+    <div class="div11">margin 20px</div>
+    <div class="div12">padding 20px</div>
     <div class="div13">
-        <div class="div14">w</div>
+        <div class="div14">inner box margin 20px</div>
+    </div>
+    <!-- Block level elements horizontally centered -->
+    <div class="div15" style="margin: 0 auto;width: 400px;background:dodgerblue;">specify width and margin left and
+        right of auto
+    </div>
+    <div class="div16" style="height: 300px;width: 800px;background:green;text-align: center">
+        <span style="background:yellow;">set parent element text-align: center to make inline/inline-block element horizontally centered</span>
+    </div>
+    <div class="div17" style="margin-bottom: 40px;background:pink;">here is two adjacent boxes</div>
+    <div class="div18" style="margin-top: 80px;background:pink;">if you specify the margin-bottom of the first box and
+        the margin-top of the second box, only the bigger one will work
+    </div>
+    <div style="height: 400px;width: 400px;margin-top: 50px;background:purple;">
+        <div style="height: 200px;width: 200px;margin-top: 100px;background:pink;">parent element takes effect with a
+            larger margin value
+        </div>
+    </div>
+    <div style="height: 400px;width: 400px;margin-top: 50px;background:purple;border-top: 1px solid transparent;">
+        <div style="height: 200px;width: 200px;margin-top: 100px;background:pink;">set border-top to parent element to
+            solve it
+        </div>
+    </div>
+    <div style="height: 400px;width: 400px;margin-top: 50px;background:purple;padding-top: 1px;">
+        <div style="height: 200px;width: 200px;margin-top: 100px;background:pink;">or set padding-top to parent element
+        </div>
+    </div>
+    <div style="height: 400px;width: 400px;margin-top: 50px;background:purple;overflow: hidden;">
+        <div style="height: 200px;width: 200px;margin-top: 100px;background:pink;">or set overflow:hidden to parent
+            element
+        </div>
     </div>
 </body>
 </html>

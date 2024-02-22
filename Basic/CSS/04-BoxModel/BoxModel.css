@@ -73,7 +73,7 @@ th {
     background-color: orange;
 }
 
-.div9 .div10 {
+.div10 {
     background-color: rgba(0, 0, 255, 0.5);
     padding: 4px;
 }
@@ -99,4 +99,5 @@ th {
 .div14 {
     background-color: lawngreen;
     margin: 20px;
+    box-sizing: border-box;
 }
