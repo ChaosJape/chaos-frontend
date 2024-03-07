@@ -101,3 +101,25 @@ th {
     margin: 20px;
     box-sizing: border-box;
 }
+
+.div15 {
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    background: pink;
+}
+
+.div16 {
+    height: 100px;
+    width: 200px;
+    border-radius: 10px 20px 30px 5px;
+    background: palevioletred;
+}
+
+.div17 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: skyblue;
+}
+
