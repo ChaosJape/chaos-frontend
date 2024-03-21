@@ -1,0 +1,77 @@
+.div1 {
+    width: 200px;
+    height: 300px;
+    background: pink;
+    opacity: 0.8;
+    float: right;
+}
+
+.div2 {
+    width: 200px;
+    height: 180px;
+    background: rgba(255, 0, 0, .5);
+    float: left;
+}
+
+.div3 {
+    width: 200px;
+    height: 100px;
+    background: rgba(0, 255, 0, .5);
+    float: left;
+}
+
+.div4 {
+    width: 220px;
+    height: 120px;
+    background: rgba(0, 0, 255, .5);
+    float: left;
+}
+
+.div5 {
+    width: 200px;
+    height: 210px;
+    background: rgba(255, 0, 0, .5);
+    float: left;
+}
+
+.div6 {
+    width: 200px;
+    height: 230px;
+    background: rgba(0, 255, 0, .5);
+    float: left;
+}
+
+.div7 {
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 0, 255, .5);
+    float: left;
+}
+
+.div8{
+    width: 300px;
+    height: 300px;
+    background: rgba(255, 0, 255, .5);
+}
+
+.div9 {
+    height: 500px;
+    width: 500px;
+    background: deepskyblue;
+}
+
+.div10 {
+    height: 100px;
+    width: 100px;
+    float: left;
+    background: deeppink;
+    opacity: 0.8;
+}
+
+.div11 {
+    height: 100px;
+    width: 100px;
+    float: right;
+    background: crimson;
+    opacity: 0.8;
+}

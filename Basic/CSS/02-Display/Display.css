@@ -1,4 +1,4 @@
-.div1 {
+.div2 {
     width: 200px;
     height: 200px;
     background-color: blue;
@@ -10,7 +10,7 @@
     background-color: red;
 }
 
-.div4 {
+.div7 {
     background-color: green;
 }
 
@@ -36,7 +36,7 @@
     background-color: yellow;
 }
 
-.div5 {
+.div4 {
     background-color: purple;
     display: inline;
 }
