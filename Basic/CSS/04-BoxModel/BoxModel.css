@@ -1,10 +1,10 @@
-.div1 {
+.div2 {
     width: 300px;
     height: 200px;
     border-width: 5px;
 }
 
-.div2 {
+.div3 {
     width: 300px;
     height: 200px;
     border-style: solid;
@@ -16,13 +16,13 @@
     border-style: dashed;
 }
 
-.div4 {
+.div7 {
     width: 300px;
     height: 200px;
     border-style: dotted;
 }
 
-.div5 {
+.div4 {
     width: 300px;
     height: 200px;
     border-width: 5px;
@@ -30,7 +30,7 @@
     border-color: blue;
 }
 
-.div6 {
+.div5 {
     width: 300px;
     height: 200px;
     border: 1px solid red;
@@ -51,7 +51,7 @@ th {
     text-align: center;
 }
 
-.div7 {
+.div6 {
     width: 300px;
     height: 200px;
     background: red;
@@ -60,20 +60,20 @@ th {
     padding-bottom: 30px;
 }
 
-.div8 {
+.div1 {
     width: 300px;
     height: 200px;
     background: green;
     padding: 50px 50px 30px 30px;
 }
 
-.div9 {
+.div2 {
     height: 100px;
     width: 300px;
     background-color: orange;
 }
 
-.div10 {
+.div3 {
     background-color: rgba(0, 0, 255, 0.5);
     padding: 4px;
 }
@@ -85,7 +85,7 @@ th {
     margin: 20px;
 }
 
-.div12 {
+.div3 {
     background-color: palevioletred;
     padding: 20px;
 }
@@ -130,6 +130,9 @@ th {
 }
 
 .div18:hover {
-    box-shadow: 10px 10px 10px 10px black;
+    box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, .3);
 }
 
+.div19 {
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, .3);
+}

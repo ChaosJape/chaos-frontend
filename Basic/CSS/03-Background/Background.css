@@ -1,4 +1,4 @@
-.div1 {
+.div2 {
     width: 300px;
     height: 200px;
     background-color: blue;
@@ -6,7 +6,7 @@
     background-repeat: repeat;
 }
 
-.div2 {
+.div3 {
     width: 300px;
     height: 200px;
     background-color: green;
@@ -24,7 +24,7 @@
     background-position: left bottom;
 }
 
-.div4 {
+.div7 {
     width: 300px;
     height: 200px;
     background-color: blue;
@@ -32,7 +32,7 @@
     background-repeat: repeat-y;
 }
 
-.div5 {
+.div4 {
     width: 300px;
     height: 200px;
     background-color: green;
@@ -41,7 +41,7 @@
     background-position: 20px 40px;
 }
 
-.div6 {
+.div5 {
     background-color: red;
     background-image: url("../assets/bg.svg");
     background-repeat: repeat-x;
@@ -49,6 +49,6 @@
     background-attachment: scroll;
 }
 
-.div7 {
+.div6 {
     background: blue url("../assets/bg.svg") repeat-x fixed center;
 }
