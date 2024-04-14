@@ -75,3 +75,21 @@
     background: crimson;
     opacity: 0.8;
 }
+
+.div12 {
+    width: 100px;
+    background: deeppink;
+    opacity: 0.8;
+    display: inline-block;
+}
+
+.div13 {
+    height: 50px;
+    width: 50px;
+    float: left;
+    background: deepskyblue;
+}
+
+.clear {
+    clear: both;
+}
