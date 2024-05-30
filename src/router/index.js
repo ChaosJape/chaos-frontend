@@ -1,17 +1,44 @@
-import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../views/Home.vue';
-import About from '../views/About.vue';
+import {createRouter, createWebHistory} from 'vue-router';
 
 const routes = [
     {
         path: '/',
         name: 'Home',
-        component: Home,
+        component: () => import('@/views/home/index.vue')
     },
     {
         path: '/about',
         name: 'About',
-        component: About,
+        component: () => import('@/views/about/index.vue'),
+    },
+    {
+        path: '/text',
+        name: 'Text',
+        component: () =>import('@/views/text/index.vue'),
+    },
+    {
+        path: '/selector',
+        name: 'Selector',
+        component: () =>import('@/views/selector/index.vue'),
+    },
+    {
+        path: '/display',
+        name: 'Display',
+        component: () =>import('@/views/display/index.vue'),
+    },
+    {
+        path: '/background',
+        name: 'Background',
+        component: () =>import('@/views/background/index.vue'),
+    }, {
+        path: '/box-model',
+        name: 'BoxModel',
+        component: () =>import('@/views/box-model/index.vue'),
+    },
+    {
+        path: '/float',
+        name: 'Float',
+        component: () =>import('@/views/float/index.vue'),
     },
 ];
 
