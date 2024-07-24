@@ -27,17 +27,30 @@
 </template>
 
 <script setup>
-import {ref, onMounted, computed} from 'vue';
-import { useRoute } from 'vue-router';
+import {ref, onMounted, computed, watch} from 'vue';
+import { useRoute,useRouter } from 'vue-router';
 import {useStore} from "vuex";
 
 const route = useRoute();
+const router = useRouter();
 const store = useStore();
 const activeMenu = computed(() => store.state.activeMenu);
 
+onMounted(() => {
+  const currentRoutePath = route.path;
+  console.log(currentRoutePath)
+  if (currentRoutePath !== store.state.activeMenu) {
+    store.dispatch('updateActiveMenu', currentRoutePath);
+  }
+});
+
+watch(() => route.path, (newPath) => {
+  store.dispatch('updateActiveMenu', newPath);
+});
+
 function handleSelect(key, keyPath) {
   console.log(`Selected menu item: ${key}`);
-  store.dispatch('updateActiveMenu', key)
+  store.dispatch('updateActiveMenu', key);
 }
 </script>
 
