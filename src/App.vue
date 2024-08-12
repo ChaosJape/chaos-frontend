@@ -1,10 +1,10 @@
 <template>
   <div class="common-layout">
-    <el-container style="height: 100vh;">
+    <el-container style="height: 100vh;" direction="vertical">
       <my-header></my-header>
       <el-container>
         <my-sidebar></my-sidebar>
-        <el-container>
+        <el-container direction="vertical">
           <el-main>
             <router-view></router-view>
           </el-main>
