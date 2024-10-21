@@ -8,7 +8,7 @@
           <el-main>
             <router-view></router-view>
           </el-main>
-          <my-footer></my-footer>
+<!--          <my-footer></my-footer>-->
         </el-container>
       </el-container>
     </el-container>
