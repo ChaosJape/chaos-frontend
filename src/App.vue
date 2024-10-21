@@ -21,7 +21,7 @@ import {useRoute} from 'vue-router';
 import {useStore} from "vuex";
 import mySidebar from "@/components/global/sidebar/index.vue";
 import myHeader from "@/components/global/header/index.vue";
-import myFooter from "@/components/global/footer/index.vue";
+// import myFooter from "@/components/global/footer/index.vue";
 
 const route = useRoute();
 const store = useStore();
