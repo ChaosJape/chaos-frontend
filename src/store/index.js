@@ -1,23 +1,23 @@
 // router/index.js
-import { createStore } from 'vuex';
+import {createStore} from 'vuex';
 
 const store = createStore({
-    state() {
-        return {
-            activeMenu: localStorage.getItem('activeMenu') || '/home',
-        };
+  state() {
+    return {
+      activeMenu: localStorage.getItem('activeMenu') || '/home',
+    };
+  },
+  mutations: {
+    setActiveMenu(state, menu) {
+      state.activeMenu = menu;
+      localStorage.setItem('activeMenu', menu);
     },
-    mutations: {
-        setActiveMenu(state, menu) {
-            state.activeMenu = menu;
-            localStorage.setItem('activeMenu', menu);
-        },
+  },
+  actions: {
+    updateActiveMenu({commit}, menu) {
+      commit('setActiveMenu', menu);
     },
-    actions: {
-        updateActiveMenu({ commit }, menu) {
-            commit('setActiveMenu', menu);
-        },
-    },
+  },
 });
 
 export default store;
