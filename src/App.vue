@@ -17,14 +17,13 @@
 
 <script setup>
 import {onMounted, watch} from 'vue';
-import {useRoute, useRouter} from 'vue-router';
+import {useRoute} from 'vue-router';
 import {useStore} from "vuex";
 import mySidebar from "@/components/global/sidebar/index.vue";
 import myHeader from "@/components/global/header/index.vue";
 // import myFooter from "@/components/global/footer/index.vue";
 
 const route = useRoute();
-const router = useRouter();
 const store = useStore();
 
 onMounted(() => {
@@ -32,9 +31,6 @@ onMounted(() => {
   console.log(currentRoutePath)
   if (currentRoutePath !== store.state.activeMenu) {
     store.dispatch('updateActiveMenu', currentRoutePath);
-  }
-  if (router.currentRoute.value.path === '/') {
-    router.push('/index');
   }
 });
 
