@@ -5,8 +5,11 @@ const routes = [
   {
     path: '/',
     redirect: '/index',
+  },
+  {
+    path: '/index',
     name: 'Home',
-    component: () => import('@/views/home/index.vue')
+    component: () => import('@/views/home/index.vue'),
   },
   {
     path: '/about',
