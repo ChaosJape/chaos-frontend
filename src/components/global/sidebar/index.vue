@@ -27,5 +27,7 @@ function handleSelect(key, keyPath) {
 </script>
 
 <style scoped>
-
+.el-menu {
+  height: 100%;
+}
 </style>
