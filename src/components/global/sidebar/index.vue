@@ -1,6 +1,6 @@
 <template>
   <el-aside width="200px">
-    <el-menu :default-active="activeMenu" @select="handleSelect" router style="padding: 8px">
+    <el-menu :default-active="activeMenu" @select="handleSelect" router style="padding: 16px">
       <el-menu-item v-for="(item, index) in menuItems.slice(1)"
         :key="index"
         :index="item.path"
@@ -29,5 +29,14 @@ function handleSelect(key, keyPath) {
 <style scoped>
 .el-menu {
   height: 100%;
+
+  .el-menu-item.is-active {
+    background: rgba(64, 158, 255, .1);
+  }
+
+  .el-menu-item:not(.is-active):hover {
+    background: none;
+    color: #409eff;
+  }
 }
 </style>
